@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <title>COMP 1920 - Lab 8</title>
+    </head>
+    <body>
+        <form action="lab8.php" method="post" name ="lab8_form">
+        What is your last name: <input type = "text" name = "last"><br>
+        What is your student number: <input type = "password" name = "number"><br><br>
+        What is your favorite sport?<br><br>
+        Defendo<input type="radio" name="sport" value="defendo" checked><br>
+        Hockey<input type="radio" name="sport" value="hockey"><br>
+        Soccer<input type="radio" name="sport" value="soccer"><br><br>
+        Click here to have junk mail sent to you:<input type="checkbox" name="junk"><br><br>
+        Please tell me the meaning of life:<br>
+        <textarea rows="10" cols="60" name="meaning_of_life">
+        </textarea><br><br>
+        Where do you live?
+        <select name="provinces">
+        <option value="bc">British Columbia</option>
+        <option value="alberta">Alberta</option>
+        <option value="sask">Saskatchewan</option>
+        <option value="man">Manitoba</option>
+        <option value="ont">Ontario</option>
+        <option value="que">Quebec</option>
+        <option value="nb">New Brunswick</option>
+        <option value="nf">Newfoundland</option>
+        <option value="ns">Nova Scotia</option>
+        <option value="pei">Prince Edward Island</option>
+        </select><br><br>
+        <input type="submit" name="info_button" value="send it to php">
+        </form>
+    </body>
+</html>
