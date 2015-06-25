@@ -1,0 +1,7 @@
+amy,anderson,aldergrove,archery,anchovies,110
+bill,bonds,burnaby,bowling,beer,100
+cameron,carson,cameroon,cars,candy,120
+henry,henderson,harrison,helping,hamburgers,90
+dorothy,dust,denmark,driving,drinks,80
+ed,edmunson,edmonton,eating,eggs,77
+fred,fredrickson,fernie,flying,fries,140
