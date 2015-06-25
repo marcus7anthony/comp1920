@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Marcus Anthony">
+    <title>COMP 1920 - Lab 13 - Marcus Anthony</title>
+    
+    <style>
+        form { 
+            margin: 25px 25px;
+        }
+        hr { 
+            margin: 25px 0;
+            border: 0; height: 1px;
+            background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.55), rgba(0,0,0,0.55), rgba(0,0,0,0));
+            background-image: -moz-linear-gradient(left, rgba(0,0,0,0.55), rgba(0,0,0,0.55), rgba(0,0,0,0));
+            background-image: -ms-linear-gradient(left, rgba(0,0,0,0.55), rgba(0,0,0,0.55), rgba(0,0,0,0));
+            background-image: -o-linear-gradient(left, rgba(0,0,0,0.55), rgba(0,0,0,0.55), rgba(0,0,0,0));
+        }
+        input {
+            margin: 10px 0 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="lab13.php" method="get" name="form">
+    
+    <strong>Phone Number:</strong><br>
+    <small><em>(ex: 777-7777 or 7777777)</em></small><br>
+    <input type="text" name="phone">
+    <hr>
+    
+    <strong>License Plate Number:</strong><br>
+    <small><em><strong>(MUST</strong> be uppercase – ex: AAA777, AAA 777 or 777AAA, 777 AAA)</em></small><br>
+    <input type="text" name="license">
+    <hr>
+    
+    <strong>Street Address:</strong><br>
+    <small><em>(<strong>MUST</strong> end in "Street" – ex: 123 Main Street)</em></small><br>
+    <input type="text" name="street">
+    <hr>
+    
+    <strong>Birthday:</strong><br>
+    <small><em>(MMM-DD-YYYY – ex: Jul-09-1989)</em></small><br>
+    <input type="text" name="birthday">
+    <hr>
+    
+    <strong>Social Insurance Number:</strong><br>
+    <small><em>(Enter 9 digits – ex: 777888999)</em></small><br>
+    <input type="text" name="sin">
+    <hr>
+    
+    <input type="submit" name="submit" value="Submit">
+    <input type="reset" name="reset" value="Reset">
+    
+    </form>
+</body>
+</html>
